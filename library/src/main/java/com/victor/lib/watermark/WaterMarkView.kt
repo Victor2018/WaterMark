@@ -74,7 +74,7 @@ class WaterMarkView: View {
     }
 
     fun setParams(markStr: String?) {
-        setParams(markStr,mTextSize,mTextColor,  mHSpace, mVSpace,mDegree, mBackgroundColor)
+        setParams(markStr,mTextSize,mTextColor, mDegree, mHSpace, mVSpace, mBackgroundColor)
     }
 
     fun setParams(markStr: String?,textSize: Float) {
